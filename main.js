@@ -85,7 +85,7 @@ for (const iteratorSofiaArray in sofiaArray) {
   
 
 //Crea un bucle utilizando “while” que itere 20 veces y muestre por consola “Patata” cada vez que el número de la iteración sea múltiplo de 3
-const patata = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+let patata = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 let i = 1;
 while(i<= 20) {
     if (i % 3 === 0) {
@@ -93,6 +93,17 @@ while(i<= 20) {
     }
     i++;
 }
+
+//si consideramos que 0 tambien es multiplo de tres el ejercicio quedaria asi
+/*let patata = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+let i = 0;
+while(i<= 20) {
+    if (i % 3 === 0) {
+    console.log("patata");
+    }
+    i++;
+}*/
+
 
 //OPCIONALES
 let gente = [
