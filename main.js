@@ -136,3 +136,12 @@ for (const persona of gente) {
 }
 console.log(nombresCuantroLetras); //lo muestro fuera del codigo de ejecución del bucle para que no consoleé en cada iteración
 
+//Crea un array con la gente que su nombre empieza por J y sean menores de 40 años. Sin utilizar el método filter de los arrays y muéstralo por consola.
+let genteJMenor40 = [];
+for (const persona of gente) {
+  if (persona.edad < 40 & persona.nombre[0] ==="J") {
+    genteJMenor40.push(persona);
+  }
+}
+console.log(genteJMenor40);
+
